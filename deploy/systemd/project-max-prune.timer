@@ -1,0 +1,10 @@
+[Unit]
+Description=Run project-max queue prune weekly
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+Unit=project-max-prune.service
+
+[Install]
+WantedBy=timers.target

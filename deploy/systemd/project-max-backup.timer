@@ -1,0 +1,10 @@
+[Unit]
+Description=Run project-max backup daily
+
+[Timer]
+OnCalendar=daily
+Persistent=true
+Unit=project-max-backup.service
+
+[Install]
+WantedBy=timers.target

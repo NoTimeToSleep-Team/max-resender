@@ -1,0 +1,24 @@
+[Unit]
+Description=project-max backend service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/project-max
+EnvironmentFile=/opt/project-max/.env
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/npm run start -w @project-max/backend
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+ReadWritePaths=/opt/project-max/data /opt/project-max/backups
+LimitNOFILE=4096
+User=projectmax
+Group=projectmax
+
+[Install]
+WantedBy=multi-user.target

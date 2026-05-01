@@ -1,0 +1,11 @@
+[Unit]
+Description=project-max delivery history prune
+After=network.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/project-max
+EnvironmentFile=/opt/project-max/.env
+ExecStart=/opt/project-max/deploy/scripts/prune-project-max.sh 30
+User=projectmax
+Group=projectmax
