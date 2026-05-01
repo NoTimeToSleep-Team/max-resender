@@ -1,0 +1,39 @@
+{
+  "name": "project-max",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted MAX to Telegram and web delivery system.",
+  "packageManager": "npm@11.6.2",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "workspaces": [
+    "src/backend",
+    "src/frontend",
+    "src/shared"
+  ],
+  "scripts": {
+    "build": "tsc -b && npm run build -w @project-max/frontend",
+    "backup:db": "node scripts/backup-db.mjs",
+    "bridge:replay": "node scripts/bridge-replay-jsonl.mjs",
+    "bridge:send": "node scripts/bridge-send.mjs",
+    "clean": "tsc -b --clean",
+    "pretypecheck": "npm run build -w @project-max/shared",
+    "generate:vapid": "node scripts/generate-vapid-keys.mjs",
+    "pretest": "npm run build",
+    "prune:queue": "node scripts/prune-delivery-history.mjs",
+    "restore:db": "node scripts/restore-db.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "verify:prod-env": "node scripts/validate-production-env.mjs",
+    "check": "npm run typecheck && npm run build",
+    "dev:backend": "npm run dev -w @project-max/backend",
+    "dev:frontend": "npm run dev -w @project-max/frontend"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/web-push": "^3.6.4",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
