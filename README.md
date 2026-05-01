@@ -1,8 +1,8 @@
 # max-resender
 Resender For MAX Messenger
 Пересыльщик сообщений Мессенджера MAX
-Eng:
-`project-max` — self-hosted relay for delivering messages from MAX to Telegram and a web app on React/PWA.
+
+## Eng: `project-max` — self-hosted relay for delivering messages from MAX to Telegram and a web app on React/PWA.
 
 ## What is already implemented
 
@@ -175,8 +175,8 @@ These are templates for Raspberry Pi, not a confirmed live deployment.
 - `docs/rpi-access.md`
 
 
-Rus:
-`project-max` — self-hosted relay для доставки сообщений из MAX в Telegram и веб-приложение на React/PWA.
+
+## Rus:`project-max` — self-hosted relay для доставки сообщений из MAX в Telegram и веб-приложение на React/PWA.
 
 ## Что уже реализовано
 
