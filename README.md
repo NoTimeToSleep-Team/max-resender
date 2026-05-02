@@ -1,5 +1,7 @@
 # project-max
 
+## As usual we didn't code this project fully by ourselves. We get help from CharGPT
+
 ## Eng:
 
 `project-max` — self-hosted relay for delivering messages from MAX to Telegram and a web app on React/PWA.
