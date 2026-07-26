@@ -1,5 +1,6 @@
 # project-max
-
+## Archiveed one
+Right now MAX messenger is deleted from AppStore on iOS. Maybe next time we will make something for Android users but more than 70% of MAX users is using iOS. Actually using MAX on Android is not so safe as on iOS, so we don't recommend to use it st all. Also the project wasn't updated for more thsn 2 months because we make a ESP32Chat project (see: github.com/NoTimeToSleep-Team/esp32chat)
 ## As usual we didn't code this project fully by ourselves. We get help from CharGPT
 
 ## Eng:
