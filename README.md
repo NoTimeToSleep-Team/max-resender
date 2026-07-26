@@ -1,8 +1,8 @@
 # project-max
 ## Archiveed one
-Right now MAX messenger is deleted from AppStore on iOS. Maybe next time we will make something for Android users but more than 70% of MAX users is using iOS. Actually using MAX on Android is not so safe as on iOS, so we don't recommend to use it at all. Also the project wasn't updated for more thsn 2 months because we make a ESP32Chat project (see: github.com/NoTimeToSleep-Team/esp32chat)
+Right now MAX messenger is deleted from AppStore on iOS. Maybe next time we will make something for Android users but more than 70% of MAX users is using iOS. Actually using MAX on Android is not so safe as on iOS, so we don't recommend to use it at all. Also the project wasn't updated for more thsn 2 months because we make a ESP32Chat project (see: github.com/NoTimeToSleep-Team/esp32chat), we recomend using MAX utilities for Android like WhiteMAX (https://github.com/WhiteMAX-Mod/whitemaxmod)
 ## Архивированный проект
-Прямо сейчас MAX удалён из AppStore на iOS. Возможно позже мы сделаем что-то для пользователей Android, но это почти не имеет смысла, ведь больше 70% пользователей MAX используют iOS. В целом MAX на Android не так безопасен как на iOS, поэтому мы не рекомендуем использовать его вообще. Также проект долго не обновлялся так как сейчас мы активно работаеи над проектом "ESP32Chat". Ссылка: github.com/NoTimeToSleep-Team/esp32chat
+Прямо сейчас MAX удалён из AppStore на iOS. Возможно позже мы сделаем что-то для пользователей Android, но это почти не имеет смысла, ведь больше 70% пользователей MAX используют iOS. В целом MAX на Android не так безопасен как на iOS, поэтому мы не рекомендуем использовать его вообще. Также проект долго не обновлялся так как сейчас мы активно работаеи над проектом "ESP32Chat". Ссылка: github.com/NoTimeToSleep-Team/esp32chat. Для пользователей Android мы рекмоендуем использование утиит на MAX, таких как WhiteMAX (https://github.com/WhiteMAX-Mod/whitemaxmod)
 ## As usual we didn't code this project fully by ourselves. We get help from CharGPT
 
 ## Eng:
